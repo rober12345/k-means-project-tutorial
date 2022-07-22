@@ -2,7 +2,7 @@
 # K-means Project Tutorial
 <!-- endhide -->
 
-- In this small project you will use the k-means algorithm to segment houses based on their coordinates. 
+- In this small project you will use the k-means algorithm to segment houses based on their coordinates and median income.
 
 ## 🌱  How to start this project
 
@@ -21,11 +21,33 @@ Once you are finished creating your clustering project, make sure to commit your
 
 **House clustering**
 
+We will create 6 housing clusters based only on their 'latitude','longitude' and their 'medincome' column.
+
 Dataset links:
 
 https://raw.githubusercontent.com/4GeeksAcademy/k-means-project-tutorial/main/housing.csv
 
-**Step 13:**
+**Step 1:**
+
+Install and import the necessary libraries: pandas, sklearn and seaborn.
+
+**Step 2:**
+
+Load the housing dataset and take a look at the first rows. Then create a new dataframe with only the 'latitude','longitude' and 'medincome' column to create our clusters.
+
+**Step 3:**
+
+Instantiate the kmeans algorithm. Then, create a new 'cluster' feature in your dataset and predict the cluster by fitting the 3 columns you have. You can view the k-means documentation to implement it: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
+
+**Step 4:**
+
+Convert your new 'cluster' column to 'category' type.
+
+**Step 5:**
+
+Use seaborn's relplot to visualize your new clusters.
+
+**Step 6:**
 
 As always, use your notebook to experiment and make sure you are getting the results you want. 
 
