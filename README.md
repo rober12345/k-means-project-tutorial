@@ -2,7 +2,7 @@
 # K-means Project Tutorial
 <!-- endhide -->
 
-- In this small project you will use the k-means algorithm to segment houses based on their corrdinates. 
+- In this small project you will use the k-means algorithm to segment houses based on their coordinates. 
 
 ## 🌱  How to start this project
 
