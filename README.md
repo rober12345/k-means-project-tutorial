@@ -2,7 +2,7 @@
 # K-means Project Tutorial
 <!-- endhide -->
 
-- In this small project you will use the k-means algorithm to segment houses based on their coordinates and median income.
+- In this small project, you will use the k-means algorithm to segment houses based on their coordinates and median income.
 
 ## 🌱  How to start this project
 
@@ -45,7 +45,7 @@ Convert your new 'cluster' column to 'category' type.
 
 **Step 5:**
 
-Use seaborn's relplot to visualize your new clusters.
+Use seaborn's replot to visualize your new clusters.
 
 **Step 6:**
 
