@@ -14,13 +14,13 @@ Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
 
 ## 🚛 Cómo entregar este proyecto
 
-Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" a el fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
+Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" al fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
 
 ## 📝 Instrucciones
 
 **Agrupación de casas**
 
-Crearemos 6 grupos de viviendas basados ​​únicamente en su columna de 'latitud', 'longitud' y 'ingreso medio'.
+Crearemos 6 grupos de viviendas basados ​​únicamente en su columna de 'latitud', 'longitud' e 'ingreso medio'.
 
 Enlaces de conjuntos de datos:
 
