@@ -34,7 +34,7 @@ Instala e importa las bibliotecas necesarias: pandas, sklearn y seaborn.
 
 Carga el conjunto de datos de vivienda y echa un vistazo a las primeras filas. Luego crea un nuevo marco de datos con solo la columna 'latitud', 'longitud' e 'ingreso medio' para crear nuestros grupos.
 
-**Step 3:**
+**Paso 3:**
 
 Crea una instancia del algoritmo kmeans. Luego, crea una nueva característica de 'cluster' en tu conjunto de datos y predice el clúster ajustando las 3 columnas que tiene. Puede ver la documentación de k-means para implementarlo: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
 
