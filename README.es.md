@@ -36,7 +36,7 @@ Carga el conjunto de datos de vivienda y echa un vistazo a las primeras filas. L
 
 **Paso 3:**
 
-Crea una instancia del algoritmo kmeans. Luego, crea una nueva característica de 'cluster' en tu conjunto de datos y predice el clúster ajustando las 3 columnas que tiene. Puede ver la documentación de k-means para implementarlo: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
+Crea una instancia del algoritmo k-means. Luego, crea una nueva característica de 'cluster' en tu conjunto de datos y predice el clúster ajustando las 3 columnas que tiene. Puede ver la documentación de k-means para implementarlo: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
 
 **Paso 4:**
 
