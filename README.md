@@ -6,11 +6,11 @@
 
 ## 🌱  How to start this project
 
-You will not be forking this time, please take some time to read this instructions:
+You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you start your project following the Instructions below.
+3. Once Gitpod VSCode has finished opening, you start your project following the Instructions below.
 
 ## 🚛 How to deliver this project
 
@@ -21,7 +21,7 @@ Once you are finished creating your clustering project, make sure to commit your
 
 **House clustering**
 
-We will create 6 housing clusters based only on their 'latitude','longitude' and their 'medincome' column.
+We will create 6 housing clusters based only on their 'latitude','longitude', and 'medincome' column.
 
 Dataset links:
 
@@ -33,15 +33,15 @@ Install and import the necessary libraries: pandas, sklearn and seaborn.
 
 **Step 2:**
 
-Load the housing dataset and take a look at the first rows. Then create a new dataframe with only the 'latitude','longitude' and 'medincome' column to create our clusters.
+Load the housing dataset and take a look at the first rows. Then create a new dataframe with only the 'latitude','longitude', and 'medincome' column to create our clusters.
 
 **Step 3:**
 
-Instantiate the kmeans algorithm. Then, create a new 'cluster' feature in your dataset and predict the cluster by fitting the 3 columns you have. You can view the k-means documentation to implement it: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
+Instantiate the k-means algorithm. Then, create a new 'cluster' feature in your dataset and predict the cluster by fitting the 3 columns you have. You can view the k-means documentation to implement it: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
 
 **Step 4:**
 
-Convert your new 'cluster' column to 'category' type.
+Convert your new 'cluster' column to a 'category' type.
 
 **Step 5:**
 
@@ -51,9 +51,9 @@ Use seaborn's replot to visualize your new clusters.
 
 As always, use your notebook to experiment and make sure you are getting the results you want. 
 
-Use you app.py file to save your defined steps, pipelines or functions in the right order. 
+Use your app.py file to save your defined steps, pipelines or functions in the right order. 
 
-In your README file write a brief summary.
+In your README file, write a brief summary.
 
 Solution guide: 
 
