@@ -3,8 +3,8 @@
 <!-- endhide -->
 
 - Comprender un dataset nuevo.
-- Modelar los datos utilizando un KNN.
-- Analizar los resultados y optimizar el modelo.
+- Modelar los datos utilizando un K-Means.
+- Analizar los resultados y entrenar un modelo supervisado.
 
 ## 🌱  Cómo iniciar este proyecto
 
@@ -47,3 +47,5 @@ Este flujo es muy común cuando contamos con datos no etiquetados: utilizar un m
 #### Paso 5: Guarda los modelos
 
 Almacena ambos modelos en la carpeta correspondiente.
+
+> NOTA: Solución: https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/solution.ipynb
