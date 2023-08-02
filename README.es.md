@@ -28,41 +28,22 @@ Queremos ser capaces de clasificar casas según su la región en la que se encue
 
 El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `housing.csv`. Puedes cargarlo en el código directamente desde el enlace (`https://raw.githubusercontent.com/4GeeksAcademy/k-means-project-tutorial/main/housing.csv`) o descargarlo y añadirlo a mano en tu repositorio. En este caso solo nos interesan las columnas `Latitude`, `Longitude` y `MedInc`.
 
-Crearemos 6 grupos de viviendas basados ​​únicamente en su columna de 'latitud', 'longitud' e 'ingreso medio'.
+Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores. Aunque estos conjuntos no se utilicen para obtener estadísticas, podrás utilizarlos para entrenar el algoritmo no supervisado y luego para hacer predicciones sobre puntos nuevos para predecir el cluster al que se asocian.
 
-Enlaces de conjuntos de datos:
+#### Paso 2: Construye un K-Means
 
-https://raw.githubusercontent.com/4GeeksAcademy/k-means-project-tutorial/main/housing.csv
+Clasifica los datos en 6 clusters utilizando, para ello, el modelo K-Means. A continuación, almacena el cluster al que pertenece cada casa como una columna nueva del dataset. Podrías llamarla `cluster`. Para introducirla a tu conjunto de datos quizá tengas que categorizarla. Observa qué formato y valores tiene y actúa en consecuencia. Grafícala en un diagrama de puntos y describe lo que ves.
 
-**Paso 1:**
+#### Paso 3: Predice con el conjunto de test
 
-Instala e importa las bibliotecas necesarias: pandas, sklearn y seaborn.
+Ahora utiliza el modelo entrenado con el conjunto de prueba y añade los puntos al gráfico anterior para confirmar que la predicción es satisfactoria o no.
 
-**Paso 2:**
+#### Paso 4: Entrena un modelo de clasificación supervisada
 
-Carga el conjunto de datos de vivienda y echa un vistazo a las primeras filas. Luego crea un nuevo marco de datos con solo la columna 'latitud', 'longitud' e 'ingreso medio' para crear nuestros grupos.
+Ahora que el K-Means nos ha devuelto una categorización (agrupación) de los puntos para los conjuntos de entrenamiento y prueba, estudia qué modelo podría ser más útil y entrénalo. Obtén las estadísticas y describe lo que ves.
 
-**Paso 3:**
+Este flujo es muy común cuando contamos con datos no etiquetados: utilizar un modelo de aprendizaje no supervisado para etiquetarlos de forma automática y a continuación, un modelo de aprendizaje supervisado.
 
-Crea una instancia del algoritmo k-means. Luego, crea una nueva característica de 'cluster' en tu conjunto de datos y predice el clúster ajustando las 3 columnas que tiene. Puede ver la documentación de k-means para implementarlo: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
+#### Paso 5: Guarda los modelos
 
-**Paso 4:**
-
-Convierte tu nueva columna de 'cluster' al tipo de 'categoría'.
-
-**Paso 5:**
-
-Utiliza el gráfico de Seaborn para visualizar tus nuevos grupos.
-
-**Paso 6:**
-
-Como siempre, usa tu notebook para experimentar y asegúrate de obtener los resultados que deseas.
-
-Usa tu archivo app.py para guardar tus pasos definidos, pipelines o funciones en el orden correcto.
-
-En tu archivo README escribe un breve resumen.
-
-Guía de soluciones: 
-
-https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/solution_guide.ipynb
-
+Almacena ambos modelos en la carpeta correspondiente.
