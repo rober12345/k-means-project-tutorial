@@ -1,61 +1,51 @@
 <!-- hide -->
-# K-means Project Tutorial
+# K-Means
 <!-- endhide -->
 
-- In this small project, you will use the k-means algorithm to segment houses based on their coordinates and median income.
+- Understanding a new dataset.
+- Model the data using a K-Means.
+- Analyze the results and train a supervised model.
 
 ## 🌱  How to start this project
 
 You will not be forking this time, please take some time to read these instructions:
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening, you start your project following the Instructions below.
+2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-Once you are finished creating your clustering project, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
-
+Once you are finished creating your linear regression model, make sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
 
 ## 📝 Instructions
 
-**House clustering**
+### House grouping system
 
-We will create 6 housing clusters based only on their 'latitude','longitude', and 'medincome' column.
+We want to be able to classify houses according to their region and median income. To do this, we will use the famous `California Housing` dataset. It was constructed using data from the 1990 California census. It contains one row per census block group. A block group is the smallest geographic unit for which US Census data is published.
 
-Dataset links:
+#### Step 1: Loading the dataset
 
-https://raw.githubusercontent.com/4GeeksAcademy/k-means-project-tutorial/main/housing.csv
+The dataset can be found in this project folder under the name `housing.csv`. You can load it into the code directly from the link (`https://raw.githubusercontent.com/4GeeksAcademy/k-means-project-tutorial/main/housing.csv`) or download it and add it by hand in your repository. In this case we are only interested in the `Latitude`, `Longitude` and `MedInc` columns.
 
-**Step 1:**
+Be sure to conveniently split the dataset into `train` and `test` as we have seen in previous lessons. Although these sets are not used to obtain statistics, you can use them to train the unsupervised algorithm and then to make predictions about new points to predict the cluster they are associated with.
 
-Install and import the necessary libraries: pandas, sklearn and seaborn.
+#### Step 2: Build a K-Means
 
-**Step 2:**
+Classify the data into 6 clusters using the K-Means model. Then store the cluster to which each house belongs as a new column in the dataset. You could call it `cluster`. To introduce it to your dataset you may have to categorize it. See what format and values it has and act accordingly. Plot it in a dot plot and describe what you see.
 
-Load the housing dataset and take a look at the first rows. Then create a new dataframe with only the 'latitude','longitude', and 'medincome' column to create our clusters.
+#### Step 3: Predict with the test set
 
-**Step 3:**
+Now use the trained model with the test set and add the points to the above plot to confirm that the prediction is successful or not.
 
-Instantiate the k-means algorithm. Then, create a new 'cluster' feature in your dataset and predict the cluster by fitting the 3 columns you have. You can view the k-means documentation to implement it: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html.
+#### Step 4: Train a supervised classification model
 
-**Step 4:**
+Now that K-Means has returned a categorization (clustering) of the points for the training and test sets, study which model might be most useful and train it. Get the statistics and describe what you see.
 
-Convert your new 'cluster' column to a 'category' type.
+This flow is very common when we have unlabeled data: use an unsupervised learning model to label it automatically and then a supervised learning model.
 
-**Step 5:**
+#### Step 5: Save the models
 
-Use seaborn's replot to visualize your new clusters.
+Store both models in the corresponding folder.
 
-**Step 6:**
-
-As always, use your notebook to experiment and make sure you are getting the results you want. 
-
-Use your app.py file to save your defined steps, pipelines or functions in the right order. 
-
-In your README file, write a brief summary.
-
-Solution guide: 
-
-https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/solution_guide.ipynb
-
+> NOTA: Solution: https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/solution.ipynb
