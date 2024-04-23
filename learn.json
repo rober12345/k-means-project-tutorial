@@ -10,5 +10,5 @@
 	"syntax": "python",
 	"duration" : 2,
     "projectType": "project",
-	"description" : "Use k-means algorithm to segment houses based on their coordinates."
+	"description" : "Use the k-means algorithm to segment houses based on their coordinates."
 }
