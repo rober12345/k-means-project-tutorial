@@ -26,7 +26,7 @@ We want to be able to classify houses according to their region and median incom
 
 #### Step 1: Loading the dataset
 
-The dataset can be found in this project folder under the name `housing.csv`. You can load it into the code directly from the link 
+The dataset can be found in this project folder under the name `housing.csv`. You can load it into the code directly from the link:
 
 ```text
 https://raw.githubusercontent.com/4GeeksAcademy/k-means-project-tutorial/main/housing.csv
